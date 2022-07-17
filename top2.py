@@ -131,7 +131,7 @@ def readInput():
 
 allCaseIds = readInput()
 print(len(allCaseIds))
-# for caseId in allCaseIds:
-#     out = getJson(caseId)
-#     appendJson(out)
-#     writeOutput()
+for caseId in allCaseIds:
+    out = getJson(caseId)
+    appendJson(out)
+    writeOutput()
